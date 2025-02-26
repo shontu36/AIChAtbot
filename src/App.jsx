@@ -70,7 +70,7 @@ const App = () => {
         <input
           type="text"
           className="flex-grow p-2 bg-gray-700 rounded-lg outline-none"
-          placeholder="Ask a UPSC question..."
+          placeholder="How you feeling today ?..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
